@@ -1,0 +1,6 @@
+.nav-link.active {
+  color: white;
+  border-bottom: 3px solid rgb(247, 202, 0); /* Default state */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}

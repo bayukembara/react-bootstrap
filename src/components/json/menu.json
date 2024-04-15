@@ -1,18 +1,22 @@
 [
   {
     "name": "About Us",
-    "path":"/about-us"
+    "path":"/about-us",
+    "isActive":true
   },
   {
     "name": "Contact Us",
-    "path":"/contact-us"
+    "path":"/contact-us",
+    "isActive":true
   },
   {
     "name": "Blog",
-    "path":"/blog"
+    "path":"/blog",
+    "isActive":true
   },
   {
     "name": "Profile",
-    "path":"/profile"
+    "path":"/profile",
+    "isActive":true
   }
 ]
