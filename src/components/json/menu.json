@@ -1,22 +1,22 @@
 [
   {
     "name": "About Us",
-    "path":"/about-us",
-    "isActive":true
+    "path":"/about-us"
   },
   {
     "name": "Contact Us",
-    "path":"/contact-us",
-    "isActive":true
+    "path":"/contact-us"
   },
   {
     "name": "Blog",
-    "path":"/blog",
-    "isActive":true
+    "path":"/blog"
   },
   {
     "name": "Profile",
-    "path":"/profile",
-    "isActive":true
+    "path":"/profile"
+  },
+  {
+    "name": "Compose",
+    "path":"/compose"
   }
 ]

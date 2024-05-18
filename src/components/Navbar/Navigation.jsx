@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import MENU from "../json/menu.json";
@@ -12,6 +13,7 @@ import About from "../../pages/about.jsx";
 import Contact from "../../pages/contact.jsx";
 import Blog from "../../pages/blog.jsx";
 import App from "../../App.jsx";
+import Compose from "../../pages/compose.jsx";
 import ErrorPage from "../../pages/error/errorPage.jsx";
 
 function Navigation() {
@@ -44,6 +46,7 @@ function Navigation() {
         <Route path="/about-us" element={<About />}></Route>
         <Route path="/contact-us" element={<Contact />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/compose" element={<Compose />}></Route>
         <Route path="*" element={<ErrorPage />}></Route>
       </Routes>
     </Router>
